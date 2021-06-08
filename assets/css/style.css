@@ -1,7 +1,50 @@
+/* ************************************************************
+:: Template Name: Digimax - SEO & Digital Marketing Agency HTML Template
+:: Template URI: https://theme-land.com/digimax/
+:: Template Author Name: theme_land
+:: Template Author URI: hridoy1272@gmail.com
+:: Version: 1.0.0
+:: Created: 15 Aug 2020
+************************************************************ 
+*
+*
+******* :: INDEX OF CSS :: *******
+:: 1.0 WEB FONTS
+:: 2.0 IMPORT ALL CSS
+:: 3.0 GLOBAL CSS
+:: 4.0 COMMON CSS
+:: 5.0 PRELOADER CSS
+:: 6.0 SCROLL TO TOP AREA CSS
+:: 7.0 HEADER AREA CSS
+:: 8.0 WELCOME AREA CSS
+    :: 8.1 WELCOME AREA HOMEPAGE-2 CSS
+    :: 8.2 WELCOME AREA HOMEPAGE-3 CSS
+    :: 8.3 WELCOME AREA HOMEPAGE-4 CSS
+    :: 8.4 WELCOME AREA HOMEPAGE-5 CSS
+:: 9.0 PROMO AREA CSS
+:: 10.0 CONTENT AREA CSS
+:: 11.0 SERVICE AREA CSS
+:: 12.0 PORTFOLIO AREA CSS
+:: 13.0 VIDEO AREA CSS
+:: 14.0 PRICE PLAN AREA CSS
+:: 15.0 FAQ AREA CSS
+:: 16.0 REVIEWS AREA CSS
+:: 17.0 TEAM AREA CSS
+:: 18.0 BLOG AREA CSS
+:: 19.0 BREADCRUMB AREA CSS
+:: 20.0 BLOG PAGE AREA CSS
+:: 21.0 BLOG PAGE DETAILS AREA CSS
+:: 22.0 CONTACT AREA CSS
+:: 23.0 FOOTER AREA CSS
+:: 24.0 ERROR AREA CSS
+:: 25.0 RTL AREA CSS
+:: 26.0 PREVIEW AREA CSS
+****************************** */
+
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
-@import url(CircularStdFont.otf);
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
@@ -23,7 +66,7 @@
 }
 
 body {
-    font-family: 'CircularStdFont';
+    font-family: 'CircularStd-Book';
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -85,7 +128,7 @@ h6 {
 }
 
 p {
-    font-family: 'CircularStdFont';
+    font-family: 'CircularStd-Book';
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -246,7 +289,7 @@ img {
     display: inline-block;
     font-size: 56px;
     font-weight: 700;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     line-height: 1em;
     letter-spacing: -1.6px;
 }
@@ -259,7 +302,7 @@ img {
 
 @media (max-width: 575px) {
     .section-heading > h2 {
-        font-size: 42px;
+        font-size: 38px;
     }
 }
 
@@ -809,7 +852,7 @@ img {
 }
 
 .digimax-preloader p {
-    font-family: 'CircularStdFont';
+    font-family: 'CircularStd-Book';
     letter-spacing: 8px;
     color: #3b3b3b;
 }
@@ -929,7 +972,7 @@ img {
     width: 50px;
     line-height: 45px;
     border-radius: 50%;
-    background-color: #ff7300;
+    background-color: #191919;
     text-align: center;
     cursor: pointer;
     z-index: 500;
@@ -1008,7 +1051,7 @@ header {
 }
 
 .navbar-brand img {
-    max-height: 100%;
+    max-height: 45px;
 }
 
 .navbar .navbar-brand-sticky {
@@ -1486,7 +1529,7 @@ body.dark,
 .single-promo h3 {
     font-size: 55px;
     font-weight: 700;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     line-height: 0.9em;
     letter-spacing: -1.6px;
 }
@@ -2191,7 +2234,7 @@ body.dark,
     transform: translateY(-50%);
     font-size: 18px;
     font-weight: 900;
-    font-family: 'CircularStdFont';
+    font-family: 'CircularStd-Book';
 }
 
 .card-header .btn::after {
@@ -2311,7 +2354,7 @@ body.dark,
     position: absolute;
     content: '\f101';
     font-weight: 900;
-    font-family: 'CircularStdFont';
+    font-family: 'CircularStd-Book';
     opacity: 0;
     visibility: hidden;
     top: 50%;
