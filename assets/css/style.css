@@ -44,7 +44,7 @@
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
-@import url("https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book");
+@import url(../font/Circular_Std_Book.ttf);
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
@@ -66,7 +66,7 @@
 }
 
 body {
-    font-family: 'CircularStd-Book';
+    font-family: 'Circular_Std_Book';
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -128,7 +128,7 @@ h6 {
 }
 
 p {
-    font-family: 'CircularStd-Book';
+    font-family: 'Circular_Std_Book';
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -302,7 +302,7 @@ img {
 
 @media (max-width: 575px) {
     .section-heading > h2 {
-        font-size: 38px;
+        font-size: 34px;
     }
 }
 
@@ -852,7 +852,7 @@ img {
 }
 
 .digimax-preloader p {
-    font-family: 'CircularStd-Book';
+    font-family: 'Circular_Std_Book';
     letter-spacing: 8px;
     color: #3b3b3b;
 }
@@ -2234,7 +2234,7 @@ body.dark,
     transform: translateY(-50%);
     font-size: 18px;
     font-weight: 900;
-    font-family: 'CircularStd-Book';
+    font-family: 'Circular_Std_Book';
 }
 
 .card-header .btn::after {
@@ -2354,7 +2354,7 @@ body.dark,
     position: absolute;
     content: '\f101';
     font-weight: 900;
-    font-family: 'CircularStd-Book';
+    font-family: 'Circular_Std_Book';
     opacity: 0;
     visibility: hidden;
     top: 50%;
